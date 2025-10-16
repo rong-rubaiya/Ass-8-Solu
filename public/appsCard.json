@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://img.icons8.com/color/512/youtube-play.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "Watch, stream, and discover millions of videos from creators worldwide.",
+    "size": 55,
+    "reviews": 145000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 105000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/whatsapp--v1.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Fast, simple, secure messaging and calling for free, available on phones all over the world.",
+    "size": 28,
+    "reviews": 175000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 130000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/instagram-new.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 3,
+    "description": "Share your moments, connect with friends, and explore creativity through photos and videos.",
+    "size": 45,
+    "reviews": 145000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 32000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/tiktok--v1.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 4,
+    "description": "Create and discover short videos personalized for you.",
+    "size": 35,
+    "reviews": 56000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/facebook-new.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 5,
+    "description": "Connect with friends and the world around you on Facebook.",
+    "size": 50,
+    "reviews": 128000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/spotify--v1.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 6,
+    "description": "Stream millions of songs and podcasts from artists around the world.",
+    "size": 38,
+    "reviews": 25800000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/twitter--v1.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 7,
+    "description": "Stay informed with the latest global news and trends in real time.",
+    "size": 30,
+    "reviews": 22000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/telegram-app.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "A fast and secure messaging app with cloud-based sync and privacy focus.",
+    "size": 32,
+    "reviews": 18000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 10400000 }
+    ]
+  }
+]
