@@ -21,19 +21,19 @@ const Banner = () => {
          <img className='mt-10' src={bannerPic} alt="bannerpic" />
 
          <div className='w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white py-20 flex flex-col justify-center items-center'>
-          <h1 className='font-bold text-5xl mb-7'>Trusted by Millions, Built for You</h1>
-        <div className='flex justify-evenly  w-full '>
-            <section>
+          <h1 className='font-bold text-3xl text-center md:text-5xl mb-7'>Trusted by Millions, Built for You</h1>
+        <div className='block md:flex justify-evenly w-auto md:w-full '>
+            <section className='border-1 md:border-none p-6 md:p-0 rounded-md md:rounded-none mb-4'>
             <p className='text-gray-300'>Total Downloads</p>
             <h1 className='my-5 text-5xl font-semibold'>29.6M</h1>
             <p className='text-gray-300'>21% more than last month</p>
           </section>
-           <section>
+           <section  className='border-1 md:border-none p-6 md:p-0 rounded-md md:rounded-none mb-4'>
             <p className='text-gray-300'>Total Reviews</p>
             <h1 className='my-5 text-5xl font-semibold'>906K</h1>
             <p className='text-gray-300'>46% more than last month</p>
           </section>
-           <section>
+           <section  className='border-1 md:border-none p-6 md:p-0 rounded-md md:rounded-none mb-4'>
             <p className='text-gray-300'>Active Apps</p>
             <h1 className='my-5 text-5xl font-semibold'>132+</h1>
             <p className='text-gray-300'>31 more will Launch</p>
