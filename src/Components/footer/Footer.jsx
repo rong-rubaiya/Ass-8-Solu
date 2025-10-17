@@ -3,7 +3,7 @@ import imgLogo from  '../../assets/logo.png'
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex justify-between">
+    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex justify-between ">
   <aside >
    <img className='h-10' src={imgLogo} alt="" />
     <p>

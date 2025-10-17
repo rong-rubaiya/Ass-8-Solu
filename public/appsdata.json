@@ -1,254 +1,382 @@
 [
   {
-    "image": "https://img.icons8.com/color/512/spotify--v1.png",
-    "title": "Spotify",
-    "companyName": "Spotify Ltd.",
-    "id": 1,
-    "description": "Stream millions of songs and podcasts from artists around the world.",
-    "size": 38,
-    "reviews": 25800000,
-    "ratingAvg": 4.6,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 22000000 }
-    ]
-  },
-  {
     "image": "https://img.icons8.com/color/512/whatsapp--v1.png",
-    "title": "WhatsApp Messenger",
-    "companyName": "Meta Platforms Inc.",
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
     "id": 2,
-    "description": "Fast, simple, secure messaging and calling for free, available on phones all over the world.",
-    "size": 28,
-    "reviews": 175000000,
+    "description": "Simple. Reliable. Private messaging.",
+    "size": 78,
+    "reviews": 125000000,
     "ratingAvg": 4.3,
-    "downloads": 5000000000,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 8000000 },
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2800000 },
+      { "name": "3 star", "count": 8500000 },
       { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 130000000 }
-    ]
+      { "name": "5 star", "count": 88000000 }
+    ],
+    "details": "WhatsApp brings seamless communication to your fingertips. With end-to-end encryption, your messages and calls stay private and secure. Share photos, videos, documents, and voice messages with individuals or groups. The clean interface makes staying connected with friends and family effortless, no matter where they are in the world."
   },
   {
-    "image": "https://img.icons8.com/color/512/instagram-new.png",
+    "image": "https://img.icons8.com/color/512/instagram-new--v1.png",
     "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
+    "companyName": "Instagram Inc.",
     "id": 3,
-    "description": "Share your moments, connect with friends, and explore creativity through photos and videos.",
-    "size": 45,
-    "reviews": 145000000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000,
+    "description": "Connect with friends and share your life",
+    "size": 92,
+    "reviews": 98000000,
+    "ratingAvg": 4.1,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 7000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 32000000 },
-      { "name": "5 star", "count": 90000000 }
-    ]
+      { "name": "1 star", "count": 4200000 },
+      { "name": "2 star", "count": 3100000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 55000000 }
+    ],
+    "details": "Instagram transforms how you capture and share your world. From stunning photos to creative Reels, express yourself visually and connect with communities that share your passions. Discover new content, follow your favorite creators, and build your own visual story through a constantly evolving platform designed for creativity and connection."
   },
   {
-    "image": "https://img.icons8.com/color/512/twitter--v1.png",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
+    "image": "https://img.icons8.com/color/512/telegram-app--v1.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
     "id": 4,
-    "description": "Stay informed with the latest global news and trends in real time.",
-    "size": 30,
-    "reviews": 22000000,
-    "ratingAvg": 4.1,
-    "downloads": 1000000000,
+    "description": "Fast and secure messaging app",
+    "size": 65,
+    "reviews": 45000000,
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 1300000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 13000000 }
-    ]
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 29000000 }
+    ],
+    "details": "Telegram offers blazing-fast messaging with robust security features. Send messages, photos, videos, and files of any type without worrying about size limits. Create groups for up to 200,000 members, channels for broadcasting to unlimited audiences, and enjoy seamless syncing across all your devices. Experience the freedom of cloud-based messaging."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 5,
+    "description": "Watch TV shows & movies anytime",
+    "size": 87,
+    "reviews": 68000000,
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 42000000 }
+    ],
+    "details": "Netflix brings entertainment to your screen with an unparalleled collection of movies, TV shows, and original content. Personalized recommendations help you discover new favorites while offline viewing lets you enjoy content anywhere. From award-winning Netflix Originals to classic films, there's always something new to watch."
   },
   {
     "image": "https://img.icons8.com/color/512/youtube-play.png",
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 5,
-    "description": "Watch, stream, and discover millions of videos from creators worldwide.",
-    "size": 55,
-    "reviews": 145000000,
-    "ratingAvg": 4.5,
-    "downloads": 10000000000,
+    "id": 6,
+    "description": "Watch, stream, and share videos",
+    "size": 145,
+    "reviews": 185000000,
+    "ratingAvg": 4.2,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 105000000 }
-    ]
+      { "name": "1 star", "count": 7500000 },
+      { "name": "2 star", "count": 5500000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 112000000 }
+    ],
+    "details": "YouTube opens up a world of video content spanning every imaginable interest. From educational tutorials to music videos, vlogs to documentaries, discover content that informs, entertains, and inspires. Create your own channel, build a community, and experience video in a whole new way with features like VR support and 4K streaming."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/twitter--v1.png",
+    "title": "Twitter",
+    "companyName": "Twitter, Inc.",
+    "id": 7,
+    "description": "See what's happening in the world",
+    "size": 73,
+    "reviews": 52000000,
+    "ratingAvg": 3.9,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 4800000 },
+      { "name": "2 star", "count": 3800000 },
+      { "name": "3 star", "count": 11000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 25000000 }
+    ],
+    "details": "Twitter connects you to the pulse of the planet in real-time. Follow breaking news, join global conversations, and engage with thought leaders, celebrities, and communities. Share your perspective in 280 characters or through multimedia tweets. From local events to worldwide trends, stay informed and connected with what matters most."
   },
   {
     "image": "https://img.icons8.com/color/512/facebook-new.png",
     "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 6,
-    "description": "Connect with friends and the world around you on Facebook.",
-    "size": 50,
-    "reviews": 128000000,
-    "ratingAvg": 4.1,
-    "downloads": 5000000000,
+    "companyName": "Facebook",
+    "id": 8,
+    "description": "Connect with friends and family",
+    "size": 156,
+    "reviews": 115000000,
+    "ratingAvg": 3.8,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 9000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 10000000 },
-      { "name": "4 star", "count": 28000000 },
-      { "name": "5 star", "count": 74000000 }
-    ]
+      { "name": "1 star", "count": 9800000 },
+      { "name": "2 star", "count": 7200000 },
+      { "name": "3 star", "count": 22000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 52000000 }
+    ],
+    "details": "Facebook helps you connect with people who matter most. Share life updates, photos, and videos with friends and family. Join groups around shared interests, follow pages from favorite businesses and creators, and discover local events. With powerful algorithms that personalize your feed, Facebook keeps you connected to your social world."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/tiktok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Ltd.",
+    "id": 9,
+    "description": "Real short videos that bring you joy",
+    "size": 198,
+    "reviews": 89000000,
+    "ratingAvg": 4.0,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 55000000 }
+    ],
+    "details": "TikTok brings creativity and entertainment to short-form video. Discover trending content, create your own videos with special effects and music, and join viral challenges. The algorithm learns your preferences to serve an endless stream of engaging content that ranges from comedy and dance to education and lifestyle inspiration."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 10,
+    "description": "Shop millions of products online",
+    "size": 112,
+    "reviews": 76000000,
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 48000000 }
+    ],
+    "details": "Amazon Shopping brings the world's largest marketplace to your mobile device. Browse millions of products, read customer reviews, compare prices, and make secure purchases with one-tap ordering. With features like Alexa integration, barcode scanning, and personalized recommendations, shopping has never been more convenient or intuitive."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/google-photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Store, organize, and share your photos",
+    "size": 84,
+    "reviews": 63000000,
+    "ratingAvg": 4.6,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 48000000 }
+    ],
+    "details": "Google Photos offers smart storage for all your memories. Back up photos and videos automatically, then find them effortlessly with powerful search that recognizes people, places, and things. Create albums, animations, and movies with automated suggestions. Free up space on your device while keeping your memories safe and accessible anywhere."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/gmail-new.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Secure business & personal email",
+    "size": 67,
+    "reviews": 95000000,
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 68000000 }
+    ],
+    "details": "Gmail redefines email with intuitive organization, robust security, and seamless integration. Smart categorization separates important messages from promotions and social updates. Powerful search finds exactly what you need, while built-in chat and video meeting features make communication effortless. Experience email that works for you, not against you."
   },
   {
     "image": "https://img.icons8.com/color/512/google-maps.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
-    "id": 7,
-    "description": "Navigate your world faster and easier with accurate maps and directions.",
-    "size": 42,
-    "reviews": 15500000,
-    "ratingAvg": 4.6,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 11000000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/zoom--v1.png",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications",
-    "id": 8,
-    "description": "Stay connected with video meetings, chat, and webinars from anywhere.",
-    "size": 80,
-    "reviews": 12000000,
-    "ratingAvg": 4.3,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 6700000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/netflix.png",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
-    "id": 9,
-    "description": "Stream unlimited movies and TV shows on your phone, tablet, or TV.",
-    "size": 60,
-    "reviews": 32000000,
-    "ratingAvg": 4.4,
-    "downloads": 1000000000,
+    "id": 13,
+    "description": "Navigate your world with confidence",
+    "size": 123,
+    "reviews": 82000000,
+    "ratingAvg": 4.5,
+    "downloads": "5B+",
     "ratings": [
       { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 62000000 }
+    ],
+    "details": "Google Maps transforms how you navigate and explore your world. Get real-time GPS navigation, traffic updates, and transit information. Discover local businesses, read reviews, and see inside places with Street View. Save favorite locations, create custom maps, and never get lost again with the most comprehensive mapping service available."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 14,
+    "description": "Video conferencing and meetings",
+    "size": 156,
+    "reviews": 42000000,
+    "ratingAvg": 4.1,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 25000000 }
+    ],
+    "details": "Zoom makes video communication seamless and reliable. Host HD video meetings with up to 100 participants, share your screen for presentations, and collaborate with built-in whiteboarding. With features like virtual backgrounds, recording, and breakout rooms, Zoom adapts to business meetings, online classes, and social gatherings alike."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/microsoft-teams-2019.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 15,
+    "description": "Chat, meet, call, and collaborate",
+    "size": 234,
+    "reviews": 38000000,
+    "ratingAvg": 4.0,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 22000000 }
+    ],
+    "details": "Microsoft Teams brings together chat, meetings, calling, and collaboration in one integrated platform. Work seamlessly with Office apps, share files, and coordinate projects with your team. With enterprise-grade security and compliance, Teams empowers organizations to work together effectively whether in the office or remotely."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/discord-logo.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 16,
+    "description": "Chat for Gamers and Communities",
+    "size": 89,
+    "reviews": 29000000,
+    "ratingAvg": 4.2,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 19000000 }
+    ],
+    "details": "Discord creates spaces for communities to gather and connect. Create servers for your friends, gaming groups, or interests with text, voice, and video channels. Share your screen during gameplay, stream movies with friends, or just hang out. With low-latency voice chat and robust moderation tools, Discord builds communities that thrive."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 17,
+    "description": "Dive into anything that interests you",
+    "size": 76,
+    "reviews": 33000000,
+    "ratingAvg": 4.0,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 5000000 },
       { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 20000000 }
+    ],
+    "details": "Reddit connects you to communities around every imaginable interest. From news and memes to niche hobbies and support groups, discover content curated by people who share your passions. Join conversations, ask questions, and explore perspectives from around the world. With thousands of active communities, there's always something new to discover."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 18,
+    "description": "Get inspired to create a life you love",
+    "size": 81,
+    "reviews": 27000000,
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7000000 },
       { "name": "5 star", "count": 18000000 }
-    ]
+    ],
+    "details": "Pinterest is your visual discovery engine for finding ideas that match your interests. Save and organize inspiring images into boards for home decor, recipes, fashion, travel, and more. Use visual search to find similar items and shop products you discover. Turn inspiration into reality with step-by-step guides and creative projects."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 19,
+    "description": "Jobs, business news, and networking",
+    "size": 95,
+    "reviews": 48000000,
+    "ratingAvg": 4.1,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 28000000 }
+    ],
+    "details": "LinkedIn connects professionals and transforms career opportunities. Build your professional network, discover job openings, and showcase your skills and experience. Learn new skills with LinkedIn Learning, stay updated with industry news, and engage with thought leaders in your field. From job seeking to business development, LinkedIn powers professional growth."
   },
   {
     "image": "https://img.icons8.com/color/512/snapchat.png",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
-    "id": 10,
-    "description": "Share moments instantly with your friends using photos, videos, and chat.",
-    "size": 25,
-    "reviews": 31000000,
-    "ratingAvg": 4.2,
-    "downloads": 1000000000,
+    "id": 20,
+    "description": "Fast and fun way to share the moment",
+    "size": 203,
+    "reviews": 58000000,
+    "ratingAvg": 3.7,
+    "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1000000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 18000000 }
-    ]
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 28000000 }
+    ],
+    "details": "Snapchat reimagines communication with ephemeral messaging and creative expression. Send disappearing photos and videos, use fun filters and lenses, and create Stories that last 24 hours. Discover content from publishers and creators, share your location with friends, and express yourself authentically without the pressure of permanence."
   },
   {
-    "image": "https://img.icons8.com/color/512/tiktok--v1.png",
-    "title": "TikTok",
-    "companyName": "ByteDance Ltd.",
-    "id": 11,
-    "description": "Create and discover short videos personalized for you.",
-    "size": 35,
-    "reviews": 56000000,
-    "ratingAvg": 4.4,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 13000000 },
-      { "name": "5 star", "count": 33000000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/telegram-app.png",
-    "title": "Telegram",
-    "companyName": "Telegram FZ-LLC",
-    "id": 12,
-    "description": "A fast and secure messaging app with cloud-based sync and privacy focus.",
-    "size": 32,
-    "reviews": 18000000,
+    "image": "https://img.icons8.com/color/512/shopify.png",
+    "title": "Shopify",
+    "companyName": "Shopify Inc.",
+    "id": 21,
+    "description": "Run your business from anywhere",
+    "size": 134,
+    "reviews": 12000000,
     "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "downloads": "10M+",
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 10400000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/pinterest--v1.png",
-    "title": "Pinterest",
-    "companyName": "Pinterest Inc.",
-    "id": 13,
-    "description": "Discover ideas for your next project, home design, or recipe.",
-    "size": 27,
-    "reviews": 9000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 150000 },
       { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 5000000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/uber--v1.png",
-    "title": "Uber",
-    "companyName": "Uber Technologies Inc.",
-    "id": 14,
-    "description": "Book rides, order food, and get wherever you need with ease.",
-    "size": 75,
-    "reviews": 18000000,
-    "ratingAvg": 4.2,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2000000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 9000000 }
-    ]
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 8500000 }
+    ],
+    "details": "Shopify puts the power of commerce in your pocket. Manage your online store, track orders, and view analytics from anywhere. Add products, fulfill orders, and connect with customers on the go. With integrated payment processing and shipping tools, running your business has never been more accessible or efficient."
   }
 ]
