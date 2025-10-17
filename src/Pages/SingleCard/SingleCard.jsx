@@ -75,9 +75,22 @@ const SingleCard = () => {
             <img className='h-40 w-40 lg:w-auto lg:h-80 shadow-xl p-8  bg-white' src={image} alt="" />
             <div >
               
-              <div className='w-3/4'>
+              <div className='w-auto sm:w-3/4 text-center sm:text-start'>
                 <h1 className='font-bold text-3xl pb-4'>{title}:{description}</h1>
               <p className='text-gray-500 text-sm'>Devoloped by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{companyName}</span></p>
+
+              {/* button for sm device */}
+              <div className='flex sm:hidden items-center justify-center mt-7'>
+               <button
+                onClick={() => handleBtn(cardId)}
+                disabled={isInstall}
+                className={`py-3 px-10 rounded-md text-white ${
+                  isInstall ? 'bg-gray-500 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00b87f]'
+                }`}
+              >
+                {isInstall ? 'Installed' : `Install Now (${size} MB)`}
+              </button>
+             </div>
               </div>
               <div className='border-b-2 border-gray-300 py-3' ></div>
               <div className='flex flex-col  sm:flex-row   items-center sm:items-start justify-items-center sm:justify-items-start  gap-16 pt-2'>
@@ -101,7 +114,8 @@ const SingleCard = () => {
               </div>
 
               {/* Install button */}
-              <button
+             <div className='hidden sm:block'>
+               <button
                 onClick={() => handleBtn(cardId)}
                 disabled={isInstall}
                 className={`py-3 px-10 rounded-md text-white ${
@@ -110,6 +124,7 @@ const SingleCard = () => {
               >
                 {isInstall ? 'Installed' : `Install Now (${size} MB)`}
               </button>
+             </div>
             </div>
            
           </div>
