@@ -16,13 +16,20 @@ export const router = createBrowserRouter([
       {
        index: true, 
        path:'/',
-       loader:()=>fetch('appsCard.json'),
+        loader: async () => {
+          await new Promise(res => setTimeout(res, 1000)); 
+          return fetch("/appsCard.json")},
        Component:Home
     },
     {
-      path:'/apps',
-      loader:()=>fetch('appsdata.json'),
-      Component:Apps
+            path: '/apps',
+        loader: async () => {
+          await new Promise(res => setTimeout(res, 1000));
+          const res = await fetch("/appsdata.json");
+          return res.json(); 
+        },
+        shouldRevalidate: () => true, 
+        Component: Apps
     },
     {
       path:'/singlecard/:id',

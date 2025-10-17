@@ -1,146 +1,154 @@
 [
   {
-    "image": "https://img.icons8.com/color/512/youtube-play.png",
-    "title": "YouTube",
-    "companyName": "Google LLC",
-    "id": 1,
-    "description": "Watch and stream videos.",
-    "size": 55,
-    "reviews": 145000000,
-    "ratingAvg": 4.5,
-    "downloads": "10B",
-    "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 105000000 }
-    ]
-  },
-  {
     "image": "https://img.icons8.com/color/512/whatsapp--v1.png",
-    "title": "WhatsApp Messenger",
-    "companyName": "Meta Platforms Inc.",
-    "id": 2,
-    "description": "Chat and call freely.",
-    "size": 28,
-    "reviews": 175000000,
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
+    "id": 1,
+    "description": "Simple. Reliable. Private messaging.",
+    "size": 78,
+    "reviews": "125M",
     "ratingAvg": 4.3,
-    "downloads": "5B",
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 8000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 130000000 }
-    ]
+      { "name": "1 star", "count": "3.5M" },
+      { "name": "2 star", "count": "2.8M" },
+      { "name": "3 star", "count": "8.5M" },
+      { "name": "4 star", "count": "25M" },
+      { "name": "5 star", "count": "88M" }
+    ],
+    "details": "WhatsApp has revolutionized global communication by making instant messaging accessible and secure for billions of users worldwide. Built on a foundation of end-to-end encryption, the platform ensures that your private conversations, voice calls, and video chats remain completely confidential. Whether you're sharing important documents, precious family photos, or quick voice messages, WhatsApp maintains the integrity of your personal communications while providing crystal-clear audio and video quality even on slower internet connections.\n\nThe app's clean, intuitive interface makes staying connected with friends, family, and colleagues remarkably straightforward. You can create groups for everything from family reunions to work projects, with support for up to 512 participants in a single chat. The Status feature lets you share updates that disappear after 24 hours, similar to stories on other platforms, while broadcast lists enable you to send messages to multiple contacts without creating a group chat.\n\nBeyond basic messaging, WhatsApp continues to innovate with features like disappearing messages that automatically vanish after seven days, payment integration in supported countries, and multi-device capability that lets you use WhatsApp on up to four linked devices even when your phone is offline. The platform's commitment to privacy extends to options like two-step verification, controlling who can see your personal information, and the ability to block unwanted contacts effortlessly.\n\nWhatsApp's widespread adoption across 180+ countries makes it an essential tool for both personal and professional communication. From small business owners using WhatsApp Business to connect with customers to families separated by continents staying in touch through video calls, the app has become deeply integrated into daily life for people around the world, proving that reliable, secure communication can indeed be simple and accessible to everyone."
   },
   {
-    "image": "https://img.icons8.com/color/512/instagram-new.png",
+    "image": "https://img.icons8.com/color/512/instagram-new--v1.png",
     "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 3,
-    "description": "Share photos and videos.",
-    "size": 45,
-    "reviews": 145000000,
-    "ratingAvg": 4.2,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 7000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 32000000 },
-      { "name": "5 star", "count": 90000000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/tiktok--v1.png",
-    "title": "TikTok",
-    "companyName": "ByteDance Ltd.",
-    "id": 4,
-    "description": "Watch short videos.",
-    "size": 35,
-    "reviews": 56000000,
-    "ratingAvg": 4.4,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 13000000 },
-      { "name": "5 star", "count": 33000000 }
-    ]
-  },
-  {
-    "image": "https://img.icons8.com/color/512/facebook-new.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 5,
-    "description": "Connect with friends.",
-    "size": 50,
-    "reviews": 128000000,
+    "companyName": "Instagram Inc.",
+    "id": 2,
+    "description": "Connect with friends and share your life",
+    "size": 92,
+    "reviews": "98M",
     "ratingAvg": 4.1,
-    "downloads": "5B",
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 9000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 10000000 },
-      { "name": "4 star", "count": 28000000 },
-      { "name": "5 star", "count": 74000000 }
-    ]
+      { "name": "1 star", "count": "4.2M" },
+      { "name": "2 star", "count": "3.1M" },
+      { "name": "3 star", "count": "12M" },
+      { "name": "4 star", "count": "28M" },
+      { "name": "5 star", "count": "55M" }
+    ],
+    "details": "Instagram has evolved from a simple photo-sharing app into a comprehensive visual storytelling platform that connects over a billion users through shared interests and creative expression. At its core, Instagram empowers users to capture life's moments through photos and short videos, applying artistic filters and editing tools to transform everyday scenes into compelling visual narratives. The platform's algorithmic feed intelligently curates content based on your interactions, ensuring you discover new creators, trends, and communities that align with your passions and interests.\n\nThe introduction of Reels has transformed how users create and consume content, offering a TikTok-like experience for short-form video entertainment, tutorials, and creative expression. Meanwhile, Stories provide a casual way to share daily moments that disappear after 24 hours, fostering more authentic connections between users and their followers. Instagram Live enables real-time interaction, allowing creators to host Q&A sessions, virtual events, and collaborative broadcasts with other users, creating dynamic engagement opportunities.\n\nBeyond social connection, Instagram has become a powerful platform for businesses, artists, and creators to build their brands and reach global audiences. The shopping features allow businesses to tag products in posts and stories, creating a seamless path from discovery to purchase. Professional tools provide valuable insights into audience demographics and content performance, while advertising options help businesses target specific user segments with precision.\n\nAs Instagram continues to innovate, it maintains its position at the forefront of digital culture, influencing everything from fashion and travel to social activism and entrepreneurship. The platform's commitment to evolving with user needs while maintaining its visual-first philosophy ensures it remains an essential space for creative expression, community building, and cultural conversation in our increasingly digital world."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/telegram-app--v1.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 3,
+    "description": "Fast and secure messaging app",
+    "size": 65,
+    "reviews": "45M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": "800K" },
+      { "name": "2 star", "count": "600K" },
+      { "name": "3 star", "count": "3M" },
+      { "name": "4 star", "count": "12M" },
+      { "name": "5 star", "count": "29M" }
+    ],
+    "details": "Telegram stands out in the crowded messaging space by combining blazing-fast performance with robust security features and unprecedented flexibility. Built on a custom MTProto protocol, Telegram delivers messages faster than any competing platform, with cloud-based architecture ensuring your conversations are seamlessly synchronized across all your devices. The platform's commitment to privacy is evident in its optional end-to-end encrypted Secret Chats, which offer self-destructing messages, prevent forwarding, and leave no trace on Telegram's servers.\n\nWhat truly sets Telegram apart is its extraordinary scalability and feature set. Groups can accommodate up to 200,000 members, functioning as vibrant communities with sophisticated moderation tools, granular permissions, and announcement channels. Broadcast channels allow creators, news organizations, and businesses to reach unlimited audiences with important updates, while maintaining two-way communication through linked discussion groups. The platform's file-sharing capabilities are equally impressive, supporting files up to 2GB in size—far exceeding limits imposed by other messaging apps.\n\nTelegram's open API and bot platform have fostered an ecosystem of third-party integrations that extend the app's functionality far beyond basic messaging. Users can employ bots for everything from weather updates and language translation to complex workflow automation and games. The platform's theme engine allows complete customization of the interface, while features like scheduled messages, extensive sticker collections, and powerful search functionality enhance the user experience.\n\nAs digital privacy concerns grow, Telegram's commitment to transparency and user control has attracted millions of users seeking alternatives to more mainstream platforms. Regular security audits, open-source clients, and a clear privacy policy reinforce Telegram's position as a trusted platform for secure communication. Whether used for personal chats, professional collaboration, or community building, Telegram delivers a powerful, flexible messaging experience that puts user control and privacy at the forefront."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 4,
+    "description": "Watch TV shows & movies anytime",
+    "size": 87,
+    "reviews": "68M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": "1.5M" },
+      { "name": "2 star", "count": "1.2M" },
+      { "name": "3 star", "count": "6M" },
+      { "name": "4 star", "count": "18M" },
+      { "name": "5 star", "count": "42M" }
+    ],
+    "details": "Netflix has fundamentally transformed the entertainment landscape, evolving from a DVD rental service to the world's leading streaming platform that redefined how we consume television and movies. With an extensive library spanning thousands of titles across every genre imaginable, Netflix offers something for every mood and preference. The platform's sophisticated recommendation algorithm analyzes your viewing habits to surface content tailored to your tastes, constantly introducing you to new shows and films you're likely to enjoy while helping you navigate the vast catalog.\n\nThe company's commitment to original programming has yielded award-winning content that rivals traditional studio productions. From groundbreaking series like 'Stranger Things' and 'The Crown' to critically acclaimed films that challenge theatrical release windows, Netflix Originals have garnered numerous Emmy Awards, Oscars, and Golden Globes. This investment in diverse storytelling has given voice to creators from around the world, resulting in international hits that cross cultural boundaries and introduce global audiences to new perspectives.\n\nNetflix's user experience prioritizes convenience and personalization across all devices. The download feature allows subscribers to watch content offline during travel or commutes, while multiple profiles within a single account ensure personalized recommendations for each family member. Parental controls, customizable subtitles, and audio descriptions make content accessible to diverse audiences, reflecting Netflix's commitment to inclusive entertainment.\n\nAs the streaming wars intensify, Netflix continues to innovate with interactive specials like 'Black Mirror: Bandersnatch,' which let viewers shape the narrative, and live streaming capabilities for special events. The platform's global reach and data-driven approach to content creation have made it not just an entertainment service, but a cultural force that influences viewing habits, sparks global conversations, and continues to push the boundaries of what's possible in digital storytelling."
   },
   {
     "image": "https://img.icons8.com/color/512/spotify--v1.png",
     "title": "Spotify",
-    "companyName": "Spotify Ltd.",
-    "id": 6,
-    "description": "Stream songs and podcasts.",
-    "size": 38,
-    "reviews": 25800000,
-    "ratingAvg": 4.6,
-    "downloads": "1B",
+    "companyName": "Spotify AB",
+    "id": 5,
+    "description": "Music and podcasts streaming",
+    "size": 95,
+    "reviews": "89M",
+    "ratingAvg": 4.7,
+    "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 22000000 }
-    ]
+      { "name": "1 star", "count": "1.2M" },
+      { "name": "2 star", "count": "900K" },
+      { "name": "3 star", "count": "5M" },
+      { "name": "4 star", "count": "20M" },
+      { "name": "5 star", "count": "65M" }
+    ],
+    "details": "Spotify has revolutionized how we discover, stream, and share audio content, transforming from a music streaming service into a comprehensive audio platform that caters to diverse listening preferences. With access to over 80 million tracks and 4 million podcast titles, Spotify offers an unparalleled library of audio content spanning every genre, era, and mood. The platform's sophisticated algorithms analyze your listening habits to create personalized playlists like Discover Weekly and Release Radar, introducing you to new artists and songs that align with your musical taste while helping you rediscover forgotten favorites.\n\nThe app's user experience is designed for seamless audio enjoyment across all devices. Spotify Connect allows you to transition playback between your phone, computer, smart speakers, and gaming consoles without interruption. The download feature enables offline listening for premium subscribers, making music and podcasts available during flights, commutes, or areas with limited connectivity. Crossfade, gapless playback, and various audio quality settings ensure optimal listening experiences tailored to your preferences and network conditions.\n\nSpotify has become an essential platform for artists and creators through tools like Spotify for Artists, which provides valuable insights into listener demographics and streaming patterns. The platform's playlist ecosystem, including both algorithmic and human-curated playlists, has become a powerful discovery mechanism that can launch careers and shape musical trends. Podcast creators benefit from Spotify's exclusive distribution deals, advertising marketplace, and interactive features like polls and Q&A sessions within the app.\n\nAs audio consumption habits evolve, Spotify continues to innovate with features like Spotify Wrapped that provides personalized year-end listening statistics, collaborative playlists for shared music discovery, and live audio capabilities through Greenroom. The platform's commitment to audio excellence, combined with its data-driven personalization and social features, has cemented its position as the leading audio streaming service that understands and adapts to how we want to experience sound in our daily lives."
+  },
+  {
+    "image": "https://img.icons8.com/color/512/youtube-play.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Watch, stream, and share videos",
+    "size": 145,
+    "reviews": "185M",
+    "ratingAvg": 4.2,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": "7.5M" },
+      { "name": "2 star", "count": "5.5M" },
+      { "name": "3 star", "count": "20M" },
+      { "name": "4 star", "count": "45M" },
+      { "name": "5 star", "count": "112M" }
+    ],
+    "details": "YouTube has revolutionized how we consume video content, transforming from a simple video-sharing platform into the world's second-largest search engine and a cultural phenomenon that has reshaped entertainment, education, and global communication. With over 500 hours of content uploaded every minute, YouTube offers an virtually limitless library of videos spanning every conceivable topic, from professional tutorials and academic lectures to music videos, vlogs, and independent filmmaking. The platform's sophisticated recommendation system uses advanced machine learning to personalize your viewing experience, suggesting content that aligns with your interests while helping creators reach their ideal audiences.\n\nThe platform has democratized content creation, enabling anyone with a camera and internet connection to build a global audience and potentially earn a living through the YouTube Partner Program. This creator economy has spawned new forms of entertainment and education, with YouTubers becoming influential figures in fields ranging from science communication and political commentary to gaming and lifestyle content. YouTube's multi-tier monetization system, including advertising, channel memberships, Super Chat, and merchandise integration, provides creators with diverse revenue streams to support their work.\n\nYouTube's impact extends beyond entertainment to education and skill development. YouTube Learning brings structured educational content to millions of users worldwide, while platforms like YouTube Kids provide a safe, curated environment for younger audiences. Features like timestamped comments, chapter markers, and interactive end screens enhance the viewing experience, making it easier to navigate long-form content and engage with communities around specific videos.\n\nAs video continues to dominate digital consumption, YouTube remains at the forefront of innovation with features like YouTube Shorts for vertical video, live streaming capabilities that rival traditional broadcast, and VR180 content for immersive experiences. The platform's global reach and cultural significance make it an essential tool for creators, educators, businesses, and viewers alike, continuing to push the boundaries of what's possible in digital video distribution and community building."
   },
   {
     "image": "https://img.icons8.com/color/512/twitter--v1.png",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
+    "title": "Twitter",
+    "companyName": "Twitter, Inc.",
     "id": 7,
-    "description": "Get latest news.",
-    "size": 30,
-    "reviews": 22000000,
-    "ratingAvg": 4.1,
-    "downloads": "1B",
+    "description": "See what's happening in the world",
+    "size": 73,
+    "reviews": "52M",
+    "ratingAvg": 3.9,
+    "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 1300000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 13000000 }
-    ]
+      { "name": "1 star", "count": "4.8M" },
+      { "name": "2 star", "count": "3.8M" },
+      { "name": "3 star", "count": "11M" },
+      { "name": "4 star", "count": "15M" },
+      { "name": "5 star", "count": "25M" }
+    ],
+    "details": "Twitter has established itself as the world's digital public square, a real-time information network where news breaks, conversations unfold, and global communities form around shared interests and current events. The platform's defining characteristic is its brevity—originally 140 characters, now 280—forcing users to distill their thoughts into concise, impactful messages. This constraint has spawned new forms of communication, from viral memes and hashtag movements to threaded storytelling and rapid-fire commentary on unfolding events.\n\nThe platform serves as an invaluable tool for journalists, activists, politicians, and citizens to stay informed about breaking news as it happens. During natural disasters, political upheavals, and cultural moments, Twitter becomes the go-to source for real-time updates, eyewitness accounts, and official statements. The trending topics feature provides a pulse on what the world is discussing, while lists and advanced search capabilities allow users to curate their information intake with precision.\n\nTwitter's role in facilitating public discourse comes with significant challenges around moderation and healthy conversation. The platform has implemented various features to address these issues, including conversation controls, warning labels on misleading information, and tools to limit unwanted interactions. Spaces, Twitter's audio chat feature, has added a new dimension to the platform, enabling real-time voice conversations that complement the text-based timeline.\n\nDespite facing criticism and competition, Twitter remains uniquely positioned as a platform for public conversation and information dissemination. Its open nature, combined with features like retweets, quote tweets, and embedded media, creates a dynamic ecosystem where ideas spread rapidly and conversations can scale from intimate discussions to global movements in moments. For better or worse, Twitter has become an essential window into the zeitgeist, capturing the pulse of global conversation in real-time."
   },
   {
-    "image": "https://img.icons8.com/color/512/telegram-app.png",
-    "title": "Telegram",
-    "companyName": "Telegram FZ-LLC",
+    "image": "https://img.icons8.com/color/512/facebook-new.png",
+    "title": "Facebook",
+    "companyName": "Facebook",
     "id": 8,
-    "description": "Fast and secure chat.",
-    "size": 32,
-    "reviews": 18000000,
-    "ratingAvg": 4.5,
-    "downloads": "1B",
+    "description": "Connect with friends and family",
+    "size": 156,
+    "reviews": "115M",
+    "ratingAvg": 3.8,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 10400000 }
-    ]
+      { "name": "1 star", "count": "9.8M" },
+      { "name": "2 star", "count": "7.2M" },
+      { "name": "3 star", "count": "22M" },
+      { "name": "4 star", "count": "30M" },
+      { "name": "5 star", "count": "52M" }
+    ],
+    "details": "Facebook pioneered the modern social networking landscape, growing from a college campus directory to a global platform connecting nearly three billion users across every continent. At its core, Facebook helps maintain relationships with people you know in real life, providing a digital space to share life updates, photos, memories, and milestones. The News Feed algorithm curates content from friends, family, and followed pages, creating a personalized stream of updates that keeps users connected to their social circles.\n\nThe platform's Groups feature has become one of its most valuable aspects, enabling communities to form around shared interests, locations, experiences, or causes. From neighborhood watch groups and parenting communities to hobbyist collectives and professional networks, these spaces facilitate meaningful interactions beyond one's immediate friend list. Facebook Events has similarly transformed how we organize gatherings, from small birthday parties to large-scale community events, with invitation tracking, discussion threads, and reminder systems.\n\nFacebook's Marketplace has emerged as a powerful competitor to dedicated e-commerce platforms, enabling local buying and selling with built-in trust mechanisms through user profiles and mutual connections. The platform's advertising tools provide businesses of all sizes with sophisticated targeting capabilities, while Pages offer free presence management for organizations, public figures, and brands seeking to engage with their audiences.\n\nDespite facing criticism around privacy, misinformation, and algorithmic transparency, Facebook continues to evolve with features like Safety Check during crises, fundraising tools for personal causes and nonprofits, and enhanced privacy controls. As the digital landscape fragments across multiple platforms, Facebook maintains its position as the comprehensive social utility that helps bridge online and offline relationships, serving as the foundational layer of many users' digital social lives."
   }
 ]

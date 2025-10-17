@@ -1,10 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useLocation, useParams } from 'react-router-dom';
 import downloadLogo from '../../assets/icon-downloads.png'
 import RatingLogo from '../../assets/icon-ratings.png'
 import ReviwesgLogo from '../../assets/icon-review.png'
+  import { ToastContainer, toast } from 'react-toastify';
+import { addToStoreDB } from '../../utility/addtoDB';
 
 const SingleCard = () => {
+ 
+
+
+  // installed or not 
+
+  const [isInstall,setisInstall]=useState(false);
+
+  
+
+ 
+
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -15,20 +28,42 @@ const SingleCard = () => {
   const { id } = useParams();
   const cardId = parseInt(id);
   const data = useLoaderData();
+
+
+  useEffect(() => {
+    const storedApps = localStorage.getItem("InstalledApps");
+    if (storedApps) {
+      const parsed = JSON.parse(storedApps);
+      if (parsed.includes(cardId)) {
+        setisInstall(true);
+      }
+    }
+  }, [cardId]);
+
+  const handleBtn = (id) => {
+    const storedApps = localStorage.getItem("InstalledApps");
+    let parsed = storedApps ? JSON.parse(storedApps) : [];
+
+    if (parsed.includes(id)) {
+      toast.info("You have already installed this app");
+    } else {
+      parsed.push(id);
+      localStorage.setItem("InstalledApps", JSON.stringify(parsed));
+      toast.success(`Yahooo🥳!! ${title} Installed Successfully👏`);
+      setisInstall(true);
+    }
+  };
   
   
-  console.log('Data:', data);
-  console.log('Looking for ID:', cardId);
   
-  // Make sure data is an array and find the card by "id" (not cardId)
+  
+  
   const cardsArray = Array.isArray(data) ? data : [];
   const singleCardData = cardsArray.find(card => card.id === cardId);
   
-  console.log('Found card:', singleCardData);
   
-  if (!singleCardData) {
-    return <div>Card not found!</div>;
-  }
+  
+  
 
   const { image, title, ratingAvg, downloads, description, companyName, size, reviews, ratings, details } = singleCardData;
     
@@ -64,7 +99,17 @@ const SingleCard = () => {
                   <h1 className='font-bold text-4xl'>{reviews}</h1>
                 </section>
               </div>
-              <button className='py-3 px-10 cursor-pointer rounded-md text-white bg-[#00D390]'>Install Now ({size} MB)</button>
+
+              {/* Install button */}
+              <button
+                onClick={() => handleBtn(cardId)}
+                disabled={isInstall}
+                className={`py-3 px-10 rounded-md text-white ${
+                  isInstall ? 'bg-gray-500 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00b87f]'
+                }`}
+              >
+                {isInstall ? 'Installed' : `Install Now (${size} MB)`}
+              </button>
             </div>
            
           </div>
@@ -81,7 +126,19 @@ const SingleCard = () => {
          <h2 className='py-7 font-bold'>Description:</h2>
          <p>{details}</p>
          </div>
+
+             <ToastContainer
+             position="top-center"      // middle horizontally
+              autoClose={2000}           // 2 seconds
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover />
       </div>
+      
 
   );
 };
