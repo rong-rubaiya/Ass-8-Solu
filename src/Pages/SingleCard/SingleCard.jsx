@@ -1,10 +1,17 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useLoaderData, useLocation, useParams } from 'react-router-dom';
 import downloadLogo from '../../assets/icon-downloads.png'
 import RatingLogo from '../../assets/icon-ratings.png'
 import ReviwesgLogo from '../../assets/icon-review.png'
 
 const SingleCard = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+
   const { id } = useParams();
   const cardId = parseInt(id);
   const data = useLoaderData();
@@ -29,34 +36,35 @@ const SingleCard = () => {
       <div className=' bg-[#F5F5F5] '>
         {/* Apps Card --1 */}
          <div className='max-w-[1400px] mx-auto my-6 border-b-2 border-gray-300 pb-8 px-7 lg:px-0'>
-          <div className='flex flex-col sm:flex-row  justify-center items-center  gap-8'>
+          <div className='flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start gap-8'>
             <img className='h-40 w-40 lg:w-auto lg:h-80 shadow-xl p-8  bg-white' src={image} alt="" />
             <div >
               
               <div className='w-3/4'>
                 <h1 className='font-bold text-3xl pb-4'>{title}:{description}</h1>
-              <p className='text-gray-500'>Devoloped by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{companyName}</span></p>
+              <p className='text-gray-500 text-sm'>Devoloped by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{companyName}</span></p>
               </div>
               <div className='border-b-2 border-gray-300 py-3' ></div>
-              <div className='flex flex-col  sm:flex-row justify-center items-center  gap-16 pt-2'>
-                <section>
+              <div className='flex flex-col  sm:flex-row   items-center sm:items-start justify-items-center sm:justify-items-start  gap-16 pt-2'>
+                 <section className='border-1 border-dashed border-gray-400 sm:border-0 p-4 flex flex-col items-center sm:items-start'>
                   <img src={downloadLogo} alt="" />
                   <p>Downloads</p>
                   <h1 className='font-bold text-4xl'>{downloads}</h1>
                 </section>
 
-                 <section>
+                  <section className='border-1 border-dashed border-gray-400 sm:border-0 p-4 flex flex-col items-center sm:items-start'>
                   <img src={RatingLogo} alt="" />
                   <p>Average Ratings</p>
                   <h1 className='font-bold text-4xl'>{ratingAvg}</h1>
                 </section>
 
-                 <section>
+                  <section className='border-1 border-dashed border-gray-400 sm:border-0 p-4 flex flex-col items-center sm:items-start'>
                   <img src={ReviwesgLogo} alt="" />
                   <p>Total Reviews</p>
                   <h1 className='font-bold text-4xl'>{reviews}</h1>
                 </section>
               </div>
+              <button className='py-3 px-10 cursor-pointer rounded-md text-white bg-[#00D390]'>Install Now ({size} MB)</button>
             </div>
            
           </div>
@@ -69,7 +77,7 @@ const SingleCard = () => {
 
          {/* details */}
 
-         <div className='max-w-[1400px] mx-auto my-6'>
+         <div className='max-w-[1400px] mx-auto my-6 px-7 lg:px-0'>
          <h2 className='py-7 font-bold'>Description:</h2>
          <p>{details}</p>
          </div>

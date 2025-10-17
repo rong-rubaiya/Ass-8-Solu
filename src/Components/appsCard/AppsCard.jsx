@@ -4,6 +4,7 @@ import ratingImg from '../../assets/fi_1828884.png'
 import { Link } from 'react-router-dom';
 
 const AppsCard = ({Card}) => {
+  
   console.log(Card);
   const {image,title,ratingAvg,downloads,description,id}=Card
     return (
