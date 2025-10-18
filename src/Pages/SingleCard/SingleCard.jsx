@@ -4,7 +4,9 @@ import downloadLogo from '../../assets/icon-downloads.png'
 import RatingLogo from '../../assets/icon-ratings.png'
 import ReviwesgLogo from '../../assets/icon-review.png'
   import { ToastContainer, toast } from 'react-toastify';
-import { addToStoreDB } from '../../utility/addtoDB';
+
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LabelList } from 'recharts';
+
 
 const SingleCard = () => {
  
@@ -65,9 +67,23 @@ if (alreadyExists) {
   
   
   
-  
+  const parseCount = (countStr) => {
+  const num = parseFloat(countStr);
+  if (countStr.includes('M')) return num * 1_000_000;
+  if (countStr.includes('K')) return num * 1_000;
+  return num;
+};
+
+
 
   const { image, title, ratingAvg, downloads, description, companyName, size, reviews, ratings, details } = singleCardData;
+
+
+  const chartData = ratings?.slice().reverse().map(rating => ({
+  name: rating.name,
+  count: parseCount(rating.count),
+  label: rating.count
+}));
     
   return (
       <div className=' bg-[#F5F5F5] '>
@@ -133,9 +149,25 @@ if (alreadyExists) {
          </div>
 
          {/* Graph */}
-         <div className='max-w-[1400px] mx-auto my-6 border-b-2 border-gray-300 pb-8'>
-          <h1>I am graph</h1>
-         </div>
+        {/* Ratings Graph */}
+<div className='w-auto lg:max-w-[1400px] mx-auto my-6 border-b-2 border-gray-300 pb-8 px-7 lg:px-0'>
+  <h2 className='text-xl font-bold mb-4'>Ratings</h2>
+  <ResponsiveContainer width="100%" height={300}>
+    <BarChart
+      data={chartData}
+      layout="vertical"
+      margin={{ top: 20, right: 40, left: 0, bottom: 20 }}
+    >
+      <XAxis type="number" tickFormatter={(value) => (value / 1_000_000) + 'M'} />
+      <YAxis dataKey="name" type="category" width={80} />
+      <Tooltip formatter={(value) => value.toLocaleString()} />
+      <Bar dataKey="count" fill="#FF9900" radius={[0, 10, 10, 0]}>
+        <LabelList dataKey="label" position="right" />
+      </Bar>
+    </BarChart>
+  </ResponsiveContainer>
+</div>
+
 
          {/* details */}
 

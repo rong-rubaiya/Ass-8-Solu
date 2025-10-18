@@ -7,7 +7,7 @@ const NoApps = () => {
    const navigate = useNavigate();
 
   const handleBack = () => {
-    navigate('/'); 
+    navigate('/apps'); 
   };
 
   return (

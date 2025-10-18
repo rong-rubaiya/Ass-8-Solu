@@ -4,6 +4,7 @@ import { useLoaderData, useLocation } from 'react-router-dom';
 import AppsCard from '../../Components/appsCard/AppsCard';
 import NoApps from '../../Components/appsCard/NoApps';
 import Loader from '../../Components/Loader/Loader';
+import SearchNoApp from '../../Components/searchappnotfound/SearchNoApp';
 
 const Apps = () => {
   
@@ -82,7 +83,7 @@ useEffect(() => {
           {loading?(<div className="w-auto sm:w-[768px] md:w-[1024px] lg:w-[1400px]">
                   <Loader />
                   </div>):
-          searchedApps.length===0?<NoApps></NoApps>:(
+          searchedApps.length===0?<SearchNoApp></SearchNoApp>:(
           searchedApps.map((Card) => (
             <AppsCard key={Card.id} Card={Card} />)
           ))}
