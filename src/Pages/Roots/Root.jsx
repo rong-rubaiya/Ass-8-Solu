@@ -5,16 +5,18 @@ import Footer from '../../Components/footer/Footer';
 import Loader from '../../Components/Loader/Loader';
 
 const Root = () => {
-  const navigation= useNavigation();
-  const isNavigating= Boolean(navigation.location)
+  const navigation = useNavigation();
+  const isNavigating = Boolean(navigation.location);
+
   return (
-    <div >
-      <Nav></Nav>
-      {isNavigating && <Loader></Loader>}
-        <Outlet></Outlet>
-       
-      <Footer></Footer>
+    <div className="flex flex-col min-h-screen">
       
+      <Nav />
+      {isNavigating && <Loader />}
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   );
 };

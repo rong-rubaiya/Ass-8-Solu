@@ -4,7 +4,8 @@ import Card from '../../Components/card/Card';
 import { useLoaderData} from 'react-router-dom';
 
 const Home = () => {
-  const data=useLoaderData();
+  const Loaderdata=useLoaderData();
+  const data=Loaderdata.slice(0,8)
   console.log(data);
   return (
     <div className='bg-[#FAFAFA] py-20 w-full '>

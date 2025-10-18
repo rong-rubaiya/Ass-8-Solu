@@ -20,7 +20,7 @@ const Card = ({data}) => {
 
     <div className='flex justify-center mt-10'>
       <Link to={'/apps'}>
-       <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white bold rounded-md px-10 py-2 cursor-pointer'>Show All</button> 
+       <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white bold rounded-md px-10 py-2 cursor-pointer hover:scale-110 transition ease-in-out'>Show All</button> 
       </Link>
     </div>
     </div>

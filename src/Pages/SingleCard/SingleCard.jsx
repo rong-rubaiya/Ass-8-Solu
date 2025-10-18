@@ -30,27 +30,29 @@ const SingleCard = () => {
   const data = useLoaderData();
 
 
-  useEffect(() => {
-    const storedApps = localStorage.getItem("InstalledApps");
+   useEffect(() => {
+    const storedApps = localStorage.getItem('InstalledApps');
     if (storedApps) {
       const parsed = JSON.parse(storedApps);
-      if (parsed.includes(cardId)) {
+      const alreadyInstalled = parsed.some(app => app.id === cardId);
+      if (alreadyInstalled) {
         setisInstall(true);
       }
     }
   }, [cardId]);
-
-  const handleBtn = (id) => {
+  const handleBtn = (app) => {
     const storedApps = localStorage.getItem("InstalledApps");
     let parsed = storedApps ? JSON.parse(storedApps) : [];
 
-    if (parsed.includes(id)) {
-      toast.info("You have already installed this app");
-    } else {
-      parsed.push(id);
-      localStorage.setItem("InstalledApps", JSON.stringify(parsed));
-      toast.success(`Yahooo🥳!! ${title} Installed Successfully👏`);
-      setisInstall(true);
+    const alreadyExists = parsed.some(storedApp => storedApp.id === app.id);
+
+if (alreadyExists) {
+  toast.info("You have already installed this app");
+} else {
+  parsed.push(app);
+  localStorage.setItem("InstalledApps", JSON.stringify(parsed));
+  toast.success(`Yahooo🥳!! ${app.title} Installed Successfully👏`);
+  setisInstall(true);
     }
   };
   
@@ -80,7 +82,7 @@ const SingleCard = () => {
               <p className='text-gray-500 text-sm'>Devoloped by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold'>{companyName}</span></p>
 
               {/* button for sm device */}
-              <div className='flex sm:hidden items-center justify-center mt-7'>
+              <div className='flex sm:hidden items-center justify-center mt-7 hover:scale-110 transition ease-in-out cursor-pointer'>
                <button
                 onClick={() => handleBtn(cardId)}
                 disabled={isInstall}
@@ -116,9 +118,9 @@ const SingleCard = () => {
               {/* Install button */}
              <div className='hidden sm:block'>
                <button
-                onClick={() => handleBtn(cardId)}
+                onClick={() => handleBtn(singleCardData)}
                 disabled={isInstall}
-                className={`py-3 px-10 rounded-md text-white ${
+                className={`py-3 px-10 rounded-md text-white hover:scale-110 transition ease-in-out cursor-pointer ${
                   isInstall ? 'bg-gray-500 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00b87f]'
                 }`}
               >
@@ -143,8 +145,8 @@ const SingleCard = () => {
          </div>
 
              <ToastContainer
-             position="top-center"      // middle horizontally
-              autoClose={2000}           // 2 seconds
+             position="top-center"     
+              autoClose={2000}          
               hideProgressBar={false}
               newestOnTop={false}
               closeOnClick

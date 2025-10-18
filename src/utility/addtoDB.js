@@ -9,14 +9,14 @@ const getStoredApps=()=>{
  }
 }
 
-const addToStoreDB=(id)=>{
+const addToStoreDB=(app)=>{
 const storeAppsData=getStoredApps();
-if(storeAppsData.includes(id)){
+if(storeAppsData.includes(app)){
   alert("You have already installed the apps");
   
 }
 else{
-  storeAppsData.push(id);
+  storeAppsData.push(app);
   const data=JSON.stringify(storeAppsData);
   localStorage.setItem('InstalledApps',data)
 }
