@@ -6,6 +6,7 @@ import Installation from '../Pages/Installation/Installation';
 import Error from '../Pages/Error/Error';
 import SingleCard from '../Pages/SingleCard/SingleCard';
 import NoApps from '../Components/appsCard/NoApps';
+import Loader from '../Components/Loader/Loader';
 
 
 export const router = createBrowserRouter([
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
     path: '/',
     Component: Root,
     errorElement:<Error/>,
-    hydrateFallbackElement:<p>Loading....</p>,
+    hydrateFallbackElement:<Loader></Loader>,
     children:[
       {
        index: true, 

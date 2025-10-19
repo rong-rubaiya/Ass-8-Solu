@@ -100,9 +100,9 @@ if (alreadyExists) {
               {/* button for sm device */}
               <div className='flex sm:hidden items-center justify-center mt-7 hover:scale-110 transition ease-in-out cursor-pointer'>
                <button
-                onClick={() => handleBtn(cardId)}
+               onClick={() => handleBtn(singleCardData)}
                 disabled={isInstall}
-                className={`py-3 px-10 rounded-md text-white ${
+                className={`py-3 px-10 rounded-md text-white hover:scale-110 transition ease-in-out cursor-pointer ${
                   isInstall ? 'bg-gray-500 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00b87f]'
                 }`}
               >
