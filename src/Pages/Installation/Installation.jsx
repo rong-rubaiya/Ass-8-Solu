@@ -12,10 +12,35 @@ const { pathname } = useLocation();
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  const [sortOrder,setsortOrder]=useState('High-Low')
+  const [sortOrder,setsortOrder]=useState('')
 
    const [installed,setinstalled]=useState([]);
     const [loading, setLoading] = useState(true);
+
+
+    const convertToNumber = (value) => {
+      if (!value) return 0;
+      const num = parseFloat(value);
+      if (value.toUpperCase().includes("B")) return num * 1_000_000_000;
+      if (value.toUpperCase().includes("M")) return num * 1_000_000;
+      if (value.toUpperCase().includes("K")) return num * 1_000;
+      return num;
+};
+
+   const handleSort=(type)=>{
+    setsortOrder(type);
+    if(type==="High-Low"){
+    
+      const sortByHL=[...installed].sort( (a, b) => convertToNumber(b.downloads) - convertToNumber(a.downloads));
+      setinstalled(sortByHL)
+    }
+
+    if(type==="Low-High"){
+      const sortByHL=[...installed].sort( (a, b) => convertToNumber(a.downloads) - convertToNumber(b.downloads));
+      setinstalled(sortByHL) 
+    }
+   }
+
     useEffect(() => {
     
     const timer = setTimeout(() => {
@@ -54,10 +79,14 @@ const { pathname } = useLocation();
       <div className='flex flex-col sm:flex-row items-center justify-center sm:justify-between mb-2'>
         <h1 className='text-2xl font-semibold'>{installed.length} Apps Found</h1>
         <div className="dropdown dropdown-start">
-          <div tabIndex={0} role="button" className="btn m-1 w-30">Sort ⬇️</div>
+
+
+          <div tabIndex={0} role="button" className="btn m-1 w-30">{sortOrder?sortOrder:'Sort ⬇️'} </div>
           <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 text-center p-2 shadow-sm ">
-            <li><a>🔽 High to Low</a></li>
-            <li><a>🔼 Low to High</a></li>
+            <li><a onClick={()=>handleSort("High-Low")}>🔽 High to Low</a></li>
+            <li><a onClick={()=>handleSort('Low-High')}>🔼 Low to High</a></li>
+
+
           </ul>
         </div>
       </div>
