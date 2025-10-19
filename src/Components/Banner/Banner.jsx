@@ -9,7 +9,7 @@ const Banner = () => {
     <div className='flex flex-col items-center px-3 md:px-0'>
        <h1 className='text-center text-black text-4xl md:text-7xl font-bold'>We Build <br />
          <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive </span>Apps</h1>
-         <p className='my-10 text-gray-500 text-center' >At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.< br className='hidden md:block'/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+         <p className='my-10 text-gray-500 text-center' >At AppifyZone , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.< br className='hidden md:block'/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
          
          <div className='flex flex-col md:flex-row gap-4 text-center items-center '>
           <Link to={'https://play.google.com/store/games?hl=en'}>

@@ -13,7 +13,7 @@ Whether you're exploring trending apps or analyzing performance metrics through 
 ### ✨ Key Highlights
 - 📱 Realistic **App Store Simulation** — install, uninstall, and manage apps interactively.  
 - 📊 **Dynamic Visual Insights** — rating distributions and performance visualizations.  
-- ⚡ **Smart Sorting** — organize apps by downloadsHigh → Low / Low → High).  
+- ⚡ **Smart Sorting** — organize apps by downloads (High → Low / Low → High).  
 - 🎨 **Modern UI** — clean design with responsive layout and smooth animations.  
 - 💬 **Real-time Feedback** — toast notifications on every action.  
 - 💾 **Local Storage Integration** — simulates app installation persistence across sessions.

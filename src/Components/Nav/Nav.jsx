@@ -64,7 +64,7 @@ const Nav = () => {
       </ul>
     </div>
     <Link to={'/'}><img className='h-10 ' src={logoImg} alt="Logo" /></Link>
-        <p className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-base font-bold hidden sm:block'>HERO.IO</p>
+        <p className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-base font-bold hidden sm:block'>AppifyZone</p>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
