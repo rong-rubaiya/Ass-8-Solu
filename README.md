@@ -23,6 +23,12 @@ Whether you're exploring trending apps or analyzing performance metrics through 
 - 💬 **Real-time Feedback** — toast notifications on every action.  
 - 💾 **Local Storage Integration** — simulates app installation persistence across sessions.
 
+
+---
+
+**AppifyZone** isn’t just a static showcase — it’s a fully interactive environment that reimagines how users explore and interact with apps online.  
+Built with **React.js**, **Tailwind CSS**, and **React Router**, it’s a perfect example of modern frontend development that combines aesthetics, logic, and user experience.
+
 ---
 
 ### 🚀 Installation & Setup
@@ -45,7 +51,6 @@ bash
 Copy code
 npm run dev
 
-**AppifyZone** isn’t just a static showcase — it’s a fully interactive environment that reimagines how users explore and interact with apps online.  
-Built with **React.js**, **Tailwind CSS**, and **React Router**, it’s a perfect example of modern frontend development that combines aesthetics, logic, and user experience.
+
 
 ---
