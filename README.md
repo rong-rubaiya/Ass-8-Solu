@@ -3,7 +3,7 @@
 **AppifyZone** is an interactive web platform designed to make app discovery intuitive, engaging, and visually dynamic.  
 It brings together beautifully crafted app profiles, real-time rating displays, graphical insights, and simulated install/uninstall functionality — creating a complete app management experience right inside your browser.
 
-![Alt text]([image-url](https://raw.githubusercontent.com/rong-rubaiya/Ass-8-Solu/refs/heads/main/Screenshot%202025-11-19%20141907.png))
+![AppifyZone Screenshot](https://raw.githubusercontent.com/rong-rubaiya/Ass-8-Solu/refs/heads/main/Screenshot%202025-11-19%20141907.png)
 
 Each app page showcases detailed descriptions, performance statistics, download sizes, and rating breakdowns in an elegant, user-friendly interface.  
 With smooth animations, responsive layouts, and intelligent data handling (like dynamic sorting and formatted download counts), **AppifyZone** feels like a real app store brought to life.
